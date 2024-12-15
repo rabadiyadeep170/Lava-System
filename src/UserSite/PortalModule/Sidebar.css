@@ -1,0 +1,38 @@
+/* src/components/Sidebar.css */
+
+.sidebar {
+    width: 220px;
+    background-color: #f4f4f4;
+    height: calc(100vh - 60px);
+    position: fixed;
+    top: 70px;
+    left: 0;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .nav-menu {
+    padding: 20px;
+  }
+  
+  .nav-menu ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .nav-menu li {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    cursor: pointer;
+    color: #333;
+  }
+  
+  .nav-menu li:hover {
+    color: #007bff;
+  }
+  
+  .nav-menu li span {
+    margin-left: 10px;
+  }
+  
